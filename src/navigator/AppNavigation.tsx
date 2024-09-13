@@ -24,6 +24,7 @@ const AppNavigation: FunctionComponent<AppNavigationProps> = () => {
           name="AddTodo"
           component={AddTodoScreen}
           options={{
+            title: 'Add Todo',
             headerStyle: {
               backgroundColor: '#000000',
             },
@@ -38,6 +39,7 @@ const AppNavigation: FunctionComponent<AppNavigationProps> = () => {
           name="UpdateTodo"
           component={UpdateTodo}
           options={{
+            title: 'Update Todo',
             headerStyle: {
               backgroundColor: '#000000',
             },
